@@ -1,7 +1,7 @@
 ---
 layout: page
 title: "Accueil"
-permalink: /accueil
+permalink: /
 ---
 
-Ceci est une page d'accuei.
+Ceci est une page d'accueil.

@@ -5,3 +5,4 @@ gem 'rspec'
 gem "webrick", "~> 1.9"
 gem "jekyll", "~> 4.4"
 gem 'logger'
+gem "minima", "~> 2.5.2"
