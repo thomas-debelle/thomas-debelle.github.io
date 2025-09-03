@@ -1,4 +1,27 @@
 domain: thomas-debelle.github.io
 url: https://thomas-debelle.github.io
-markdown: kramdown
-theme: Minima
+theme: minimal-mistakes-jekyll
+minimal_mistakes_skin: "dark"
+
+# Load SASS
+sass:
+  sass_dir: _sass
+  style: compressed
+  quiet_deps: true    # Remove deprecation warnings
+
+# Copy CSS files in website tree
+include:
+  - assets/css
+
+# Specify custom CSS to use by minimal-mistakes
+custom_css:
+  - "/assets/css/custom.css"
+
+# Enable navigation bar
+navigation:
+  enabled: true
+
+# Define collections
+collections:
+  projects:
+    output: true

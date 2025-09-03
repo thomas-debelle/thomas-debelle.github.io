@@ -1,0 +1,16 @@
+/*Define project grid class*/
+.grid__wrapper {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1.5rem;
+}
+
+.grid__item img {
+  width: 100%;
+  border-radius: 8px;
+  transition: transform 0.2s ease;
+}
+
+.grid__item img:hover {
+  transform: scale(1.05);
+}
